@@ -6,19 +6,19 @@ This project explores the various functions and possible variations of images on
 
 # Images on Different Oscilloscope
 
-##Pure Digital
+## Pure Digital
 
 The analog input is converted into a digital signal and displayed on a digital screen.
 
 ![KeysightHeart](https://github.com/PaggieZ/EE-Emerge-2023-OscilloscopeFun/blob/main/pictures/KeysightHeart.jpg?raw=true)
 
-##Hybrid
+## Hybrid
 
 The analog input is processed by a built in processor and displayed using the CRT.
 
 ![HPHeart](https://github.com/PaggieZ/EE-Emerge-2023-OscilloscopeFun/blob/main/pictures/HPHeart.jpg?raw=true)
 
-##Pure Analog
+## Pure Analog
 
 The analog input is directly coupled with the cathode-ray-tube (CRT) for display.
 
