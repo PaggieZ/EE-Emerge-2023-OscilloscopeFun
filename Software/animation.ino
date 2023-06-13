@@ -169,94 +169,6 @@ void loop() {
 
 }
 
-/*
-void spellName(){
-  for(int i = 0; i < name_size; i++){
-    for(int j = 9; j < count; j++){
-      switch(name[i]){
-        case 1: // A
-          draw(A_x, A_y, A_direction, A_size);
-          break;
-        case 2: // B
-          draw(B_x, B_y, B_direction, B_size);
-          break;
-        case 3: // C
-          draw(C_x, C_y, C_direction, C_size);
-          break;
-        case 4: // D
-          draw(D_x, D_y, D_direction, D_size);
-          break;
-        case 5: // E
-          draw(E_x, E_y, E_direction, E_size);
-          break;
-        case 6: // F
-          draw(F_x, F_y, F_direction, F_size);
-          break;
-        case 7: // G
-          draw(G_x, G_y, G_direction, G_size);
-          break;
-        case 8: // H
-          draw(H_x, H_y, H_direction, H_size);
-          break;
-        case 9: // I
-          draw(I_x, I_y, I_direction, I_size);
-          break;
-        case 10: // J
-          draw(J_x, I_y, I_direction, I_size);
-          break;
-        case 11: // K
-          draw(K_x, K_y, K_direction, K_size);
-          break;
-        case 12: // L
-          draw(L_x, L_y, L_direction, L_size);
-          break;
-        case 13: // M
-          draw(M_x, M_y, M_direction, M_size);
-          break;
-        case 14: // N
-          draw(N_x, N_y, N_direction, N_size);
-          break; 
-        case 15: // O
-          draw(O_x, O_y, O_direction, O_size);
-          break; 
-        case 16: // P
-          draw(P_x, P_y, P_direction, P_size);
-          break;
-        case 17: // Q
-          draw(Q_x, Q_y, Q_direction, Q_size);
-          break;
-        case 18: // R
-          draw(R_x, R_y, R_direction, R_size);
-          break;
-        case 19: // S
-          draw(S_x, S_y, S_direction, S_size);
-          break;
-        case 20: // T
-          draw(T_x, T_y, T_direction, T_size);
-          break;
-        case 21: // U
-          draw(U_x, U_y, U_direction, U_size);
-          break;
-        case 22: // V
-          draw(V_x, V_y, V_direction, V_size);
-          break;
-        case 23: // W
-          draw(W_x, W_y, W_direction, W_size);
-          break;
-        case 24: // X
-          draw(X_x, X_y, X_direction, X_size);
-          break;
-        case 25: // Y
-          draw(Y_x, Y_y, Y_direction, Y_size);
-          break;
-        case 26: // Z
-          draw(Z_x, Z_y, Z_direction, Z_size);
-          break;
-      }                  
-    }
-  }
-}
-*/
 
 void drawPoopAnimation(){
   for(int i = 0; i < count * 3; i ++){
@@ -393,10 +305,6 @@ void drawKeysight(){
 }
 
 void draw(uint8_t x[], uint8_t y[], uint8_t direction[], uint8_t size) {
-	//int x[] = {1, 1, 2, 2, 1, 1, 6, 6, 5, 5, 8, 7, 7, 13, 13, 12, 7, 12, 13, 13, 7, 7, 8, 5, 5, 6, 6, 1}; // X-Coordinate, the last index has the first point
-	//int y[] = {2, 3, 3, 13, 13, 14, 14, 13, 13, 10, 13, 13, 14, 14, 13, 13, 8, 3, 3, 2, 2, 3, 3, 6, 3, 3, 2, 2}; // Y-Coordinate
-	//int direction[] = {UP, RIGHT, UP, LEFT, UP, RIGHT, DOWN, LEFT, DOWN, UP_RIGHT, LEFT, UP, RIGHT, DOWN, LEFT, DOWN_LEFT, DOWN_RIGHT, RIGHT, DOWN, LEFT, UP, RIGHT, UP_LEFT, DOWN, RIGHT, DOWN, LEFT};
-	// Set initial a,b coordinate values
 	int index = 0;
 
   while(index < size){    
