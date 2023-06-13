@@ -1,6 +1,6 @@
 # Software Design
 
-The program on the microcontroller controls the value and frequency of the digital signal. The value determines the shape of the image. the frequency determines the duration and consistency of the image.
+The program on the microcontroller controls the value and frequency of the digital signal. The value determines the shape of the image, the frequency determines the duration and consistency of the image.
 
 ## Image Library
 
