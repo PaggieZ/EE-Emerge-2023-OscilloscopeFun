@@ -21,7 +21,9 @@ Starting from the black dot (7, 2), the vector goes up and hits (7, 12). Then it
 The three arrays are:
 
 T_x[] = {7, 7, 3, 3, 13, 13, 9, 9, 7}
+
 T_y[] = {2, 12, 12, 14, 14, 12, 12, 2, 2}
+
 T_direction[] = {UP, LEFT, UP, RIGHT, DOWN, LEFT, DOWN, LEFT}
 
 ## Program
