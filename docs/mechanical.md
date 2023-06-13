@@ -4,7 +4,7 @@
 
 # Design Progress
 <p align="center">
-        <iframe src="https://www.youtube.com/embed/JqtcbrxqYU"
+        <iframe src="https://www.youtube.com/embed/lSThi_XO16U"
                 width="560"
                 height="315"
                 frameborder="0"
