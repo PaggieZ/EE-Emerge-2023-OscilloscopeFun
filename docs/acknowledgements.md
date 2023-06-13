@@ -1,4 +1,4 @@
-## Acknowledgements
+# Acknowledgements
 
 Our design team would like to give thanks and acknowledge the people who supported our project development.
 
