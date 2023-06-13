@@ -2,6 +2,7 @@
 The PCB has an R2R (Resistor-To-Resistor) ladder, we increase the amount of resistors in the R2R to increase the outputs from 4 to 8 Digital-To-Analog Converter (DAC).
 
 We originally had this ladder to have four outputs to have a 4-bit DAC. There we would be able to convert 4 bits of data and display it onto the oscilliscope. First we would connect four output pins from the Arduino to the DAC circuitry. These pins will generate the digital output. The DAC circuitry is resistor ladder network, where each output pin corresponds to a specific voltage level determined by the resistor values. Once we run code through a software to send informtaion to the DAC then to the Arduino, it will generate a changing analog output voltage on the DAC pins, simulating an analog signal with 16 different levels (corresponding to the 4-bit digital values).
+
 ![circuit](https://github.com/PaggieZ/EE-Emerge-2023-OscilloscopeFun/blob/main/pictures/circuit.JPG?raw=true)
 ![board](https://github.com/PaggieZ/EE-Emerge-2023-OscilloscopeFun/blob/main/pictures/board.JPG?raw=true)
 
