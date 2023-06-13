@@ -4,14 +4,6 @@
 
 # Design Progress
 <p align="center">
-        <iframe src="https://www.youtube.com/embed/lSThi_XO16U"
-                width="560"
-                height="315"
-                frameborder="0"
-                allowfullscreen>
-        </iframe>
-</p>
-<p align="center">
         <iframe src="https://www.youtube.com/embed/_JqtcbrxqYU"
                 width="560"
                 height="315"
@@ -20,7 +12,15 @@
         </iframe>
 </p>
 <p align="center">
-        <iframe src="https://youtu.be/l91ntSRP_pk"
+        <iframe src="https://www.youtube.com/embed/DEeIDtOTU-I"
+                width="560"
+                height="315"
+                frameborder="0"
+                allowfullscreen>
+        </iframe>
+</p>
+<p align="center">
+        <iframe src="https://www.youtube.com/embed/l91ntSRP_pk"
                 width="560"
                 height="315"
                 frameborder="0"
