@@ -11,7 +11,7 @@ Each array group is constructed using the following steps:
 2. Record the XY coordinates of the corners.
 3. Record the directions of the edges.
 
-Here we use the letter "T" as an example, the same technique could be applied to any image.
+We use the letter "T" as an example, the same technique could be applied to any image.
 
 Here is the grid diagram for "T":
 ![T](https://github.com/PaggieZ/EE-Emerge-2023-OscilloscopeFun/blob/main/pictures/T.png?raw=true)
@@ -20,12 +20,14 @@ Starting from the black dot (7, 2), the vector goes up and hits (7, 12). Then it
 
 The three arrays are:
 
-T_x[] = {7, 7, 3, 3, 13, 13, 9, 9, 7}
+T_x[ ] = {7, 7, 3, 3, 13, 13, 9, 9, 7}
 
-T_y[] = {2, 12, 12, 14, 14, 12, 12, 2, 2}
+T_y[ ] = {2, 12, 12, 14, 14, 12, 12, 2, 2}
 
-T_direction[] = {UP, LEFT, UP, RIGHT, DOWN, LEFT, DOWN, LEFT}
+T_direction[ ] = {UP, LEFT, UP, RIGHT, DOWN, LEFT, DOWN, LEFT}
 
-## Program
+## Main Program
+
+The main program iterates through array groups based on user request and sends out a pair of 4-bit digital signals to the DAC. Each pair of signals represent the X and Y values of an coordinate in binary form.
 
 ![flowchart](https://github.com/PaggieZ/EE-Emerge-2023-OscilloscopeFun/blob/main/pictures/flowchart.png?raw=true)
