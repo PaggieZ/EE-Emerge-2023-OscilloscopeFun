@@ -6,7 +6,7 @@ The program on the microcontroller controls the value and frequency of the digit
 
 The "Global.h" library contains multiple sets of array groups. Each array group represents an image.
 
-The array groups are constructed using the following steps:
+Each array group is constructed using the following steps:
 1. Draw out the image on a 16 x 16 grid. The starting point must match with the ending point.
 2. Record the XY coordinates of the corners.
 3. Record the directions of the edges.
