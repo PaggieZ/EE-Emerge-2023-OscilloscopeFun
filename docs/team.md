@@ -1,7 +1,6 @@
 
 # Team
 
-| | |
 |:---------------------------------------------------------:|:---------------------------------------------------:|
 |**Akanksha Rawat** <br/> **Team Leader** <br/> B.S. Electrical Engineering <br/> [LinkedIn](https://www.linkedin.com/in/akanrawat/) & [GitHub](https://github.com/RakankshaNew) | ![Akanksha](https://github.com/PaggieZ/EE-Emerge-2023-OscilloscopeFun/blob/main/pictures/Akanksha.png?raw=true) |
 |**Eitan Sahnovich** <br/> B.S. Computer Engineering <br/> [LinkedIn](https://www.linkedin.com/in/eitan-sahnovich-b9421416b/)| ![Eitan](https://github.com/PaggieZ/EE-Emerge-2023-OscilloscopeFun/blob/main/pictures/Eitan.png?raw=true) |
